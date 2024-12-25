@@ -7,21 +7,23 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'LlamaGen.AI',
+    description: `An AI-powered comic creation platform that helps artists generate consistent 
+    characters and storylines across multiple panels. With support for 50+ languages and 
+    4K ultra-HD imagery, it enables creators to transform their ideas into compelling comics, 
+    manga, and webtoons.`,
+    imgSrc: 'https://cdn.llamagen.ai/web_public/releases/AI_Comic_Strips_Maker_Free_45.webp',
+    href: 'https://llamagen.ai',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Llama Canvas',
+    description: `A collaborative storytelling platform that combines AI-powered narrative generation 
+    with visual storyboarding. Writers and artists can work together to create interactive stories, 
+    with AI assistance for plot development, character arcs, and scene visualization.`,
+    imgSrc: 'https://cdn.llamagen.ai/web_public/llama_canvas/llama-canvas-gen-comics.webp',
+    href: 'https://canvas.llamagen.ai',
   },
+
 ]
 
 export default projectsData

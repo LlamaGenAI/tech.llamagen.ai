@@ -72,6 +72,7 @@ module.exports = () => {
       // dirs: ['app', 'components', 'layouts', 'scripts'],
     },
     images: {
+      domains: ['cdn.llamagen.ai'],
       remotePatterns: [
         {
           protocol: 'https',
