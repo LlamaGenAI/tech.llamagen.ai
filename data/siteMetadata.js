@@ -1,23 +1,26 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
+  title: 'LlamaGen.Ai Tech Blog',
   author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  headerTitle: 'LlamaGen.Ai Tech Blog',
+  description: 'Ultimate AI-powered ACG creation at scale.',
+
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
-  socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  x: 'https://twitter.com/x',
+  siteUrl: 'https://tech.llamagen.ai',
+  siteRepo: 'https://github.com/LlamaGenAI/tech.llamagen.ai',
+  // siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
+  siteLogo:`https://cdn.llamagen.ai/web_public/icons/light-logo-v3.jpg`,
+  // socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
+  socialBanner:`https://cdn.llamagen.ai/web_public/releases/AI_Comic_Strips_Maker_Free_45.webp`,
+  mastodon: 'https://twitter.com/llama_gen',
+  email: 'contact@llamagen.ai',
+  github: 'https://github.com/LlamaGenAI/LlamaGen',
+  x: 'https://twitter.com/llama_gen',
   // twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  facebook: 'https://www.facebook.com/groups/llamagenai/',
+  youtube: 'https://www.youtube.com/@LlamaGenAI',
+  linkedin: 'https://linkedin.com/company/llamagen-ai/',
   threads: 'https://www.threads.net',
   instagram: 'https://www.instagram.com',
   medium: 'https://medium.com',
@@ -49,11 +52,11 @@ const siteMetadata = {
     //   googleAnalyticsId: '', // e.g. G-XXXXXXX
     // },
   },
-  newsletter: {
-    // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus, beehive
-    // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
-  },
+  // newsletter: {
+  //   // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus, beehive
+  //   // Please add your .env file and modify it according to your selection
+  //   provider: 'buttondown',
+  // },
   comments: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
@@ -98,6 +101,9 @@ const siteMetadata = {
     //   indexName: 'docsearch',
     // },
   },
+  discord: 'https://discord.gg/Jrsff8YFKw',
+  pinterest: 'https://www.pinterest.com/llama_gen/',
+  reddit: 'https://www.reddit.com/r/LlamaGenAi/',
 }
 
 module.exports = siteMetadata

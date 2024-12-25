@@ -14,7 +14,30 @@ const Header = () => {
 
   return (
     <header className={headerClass}>
-      <Link href="/" aria-label={siteMetadata.headerTitle}>
+        <Link
+      href="/"
+      className="flex no-underline cursor-pointer space-x-2 max-sm:mr-0 items-center"
+    >
+      <img
+        
+        alt="logo"
+        width={32}
+        height={32}
+        className="object-contain"
+        src={"https://cdn.llamagen.ai/web_public/icons/light-logo-v3.jpg"}
+      />
+      <div className="hidden md:flex md:flex-row md:items-center  relative   ">
+        <img
+
+          alt="logo"
+          width={256}
+          height={31}
+          className=" w-32 object-contain"
+          src={"https://cdn.llamagen.ai/web_public/icons/LlamaGen.Ai-word.png"}
+        />
+      </div>
+    </Link>
+      {/* <Link href="/" aria-label={siteMetadata.headerTitle}>
         <div className="flex items-center justify-between">
           <div className="mr-3">
             <Logo />
@@ -27,7 +50,7 @@ const Header = () => {
             siteMetadata.headerTitle
           )}
         </div>
-      </Link>
+      </Link> */}
       <div className="flex items-center space-x-4 leading-5 sm:space-x-6">
         <div className="no-scrollbar hidden max-w-40 items-center space-x-4 overflow-x-auto sm:flex sm:space-x-6 md:max-w-72 lg:max-w-96">
           {headerNavLinks
