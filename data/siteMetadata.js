@@ -1,7 +1,7 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'LlamaGen.Ai Tech Blog',
-  author: 'Tails Azimuth',
+  author: '@LlamaGen.Ai',
   headerTitle: 'LlamaGen.Ai Tech Blog',
   description: 'Ultimate AI-powered ACG creation at scale.',
 
